@@ -1,0 +1,6 @@
+#! /bin/bash
+
+for setup in **/setup; do
+    echo Running $directory/setup
+    bash -c "cd $(dirname $setup) && ./setup"
+done

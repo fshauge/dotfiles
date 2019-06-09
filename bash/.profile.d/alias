@@ -1,0 +1,6 @@
+#! /bin/bash
+
+alias reload="source $HOME/.profile"
+
+alias ll="ls -l"
+alias la="ll -a"

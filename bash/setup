@@ -1,0 +1,5 @@
+#! /bin/bash
+
+echo Linking .profile and .profile.d to home directory
+ln -sfn "$(pwd)/.profile" "$HOME/.profile"
+ln -sfn "$(pwd)/.profile.d" "$HOME/.profile.d"
