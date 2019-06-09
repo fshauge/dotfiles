@@ -1,0 +1,51 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.renderIndentGuides": false,
+  "editor.rulers": [80],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Gloom Contrast (rainglow)",
+  "workbench.settings.editor": "json",
+
+  "prettier.eslintIntegration": true,
+
+  "[html]": {
+    "editor.formatOnSave": true
+  },
+
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+
+  "[jsonc]": {
+    "editor.formatOnSave": true
+  },
+
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
