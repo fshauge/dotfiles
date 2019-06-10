@@ -16,36 +16,56 @@
   "prettier.eslintIntegration": true,
 
   "[html]": {
+    "editor.tabSize": 2,
     "editor.formatOnSave": true
   },
 
   "[css]": {
+    "editor.tabSize": 2,
     "editor.formatOnSave": true
   },
 
   "[json]": {
+    "editor.tabSize": 2,
     "editor.formatOnSave": true
   },
 
   "[jsonc]": {
+    "editor.tabSize": 2,
     "editor.formatOnSave": true
   },
 
   "[javascript]": {
-    "editor.formatOnSave": true
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
   },
 
   "[javascriptreact]": {
-    "editor.formatOnSave": true
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
   },
 
   "[typescript]": {
+    "editor.tabSize": 2,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
   },
 
   "[typescriptreact]": {
+    "editor.tabSize": 2,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
   }
 }
