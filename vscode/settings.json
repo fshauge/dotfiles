@@ -1,40 +1,44 @@
 {
+  "editor.codeLens": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "prettier.eslintIntegration": true,
+  "terminal.integrated.cursorStyle": "line",
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Gloom Contrast (rainglow)",
   "workbench.settings.editor": "json",
-
-  "prettier.eslintIntegration": true,
-
+  "workbench.tree.renderIndentGuides": "none",
   "[html]": {
     "editor.tabSize": 2,
     "editor.formatOnSave": true
   },
-
   "[css]": {
     "editor.tabSize": 2,
     "editor.formatOnSave": true
   },
-
+  "[scss]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
   "[json]": {
     "editor.tabSize": 2,
     "editor.formatOnSave": true
   },
-
   "[jsonc]": {
     "editor.tabSize": 2,
     "editor.formatOnSave": true
   },
-
   "[javascript]": {
     "editor.tabSize": 2,
     "editor.formatOnSave": true,
@@ -42,7 +46,6 @@
       "source.organizeImports": true
     }
   },
-
   "[javascriptreact]": {
     "editor.tabSize": 2,
     "editor.formatOnSave": true,
@@ -50,7 +53,6 @@
       "source.organizeImports": true
     }
   },
-
   "[typescript]": {
     "editor.tabSize": 2,
     "editor.formatOnSave": true,
@@ -59,7 +61,6 @@
       "source.organizeImports": true
     }
   },
-
   "[typescriptreact]": {
     "editor.tabSize": 2,
     "editor.formatOnSave": true,
