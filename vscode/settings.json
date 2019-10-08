@@ -4,16 +4,19 @@
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
+  "editor.suggestSelection": "first",
+  "eslint.packageManager": "yarn",
+  "files.associations": {
+    "*.asp": "python"
+  },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "prettier.eslintIntegration": true,
+  "git.ignoreLegacyWarning": true,
   "terminal.integrated.cursorStyle": "line",
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Gloom Contrast (rainglow)",
@@ -68,5 +71,13 @@
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     }
+  },
+  "[graphql]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.tabSize": 2
   }
 }
