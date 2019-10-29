@@ -17,6 +17,7 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.ignoreLegacyWarning": true,
+  "python.linting.enabled": false,
   "terminal.integrated.cursorStyle": "line",
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Gloom Contrast (rainglow)",
