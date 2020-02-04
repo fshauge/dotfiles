@@ -10,5 +10,14 @@
   {
     "key": "cmd+g",
     "command": "git.sync"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "-search.action.rerunEditorSearch",
+    "when": "editorLangId == 'search-result' && editorLangId == 'search-result'"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.tasks.runTask"
   }
 ]
