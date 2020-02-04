@@ -4,3 +4,5 @@ alias reload="source $HOME/.profile"
 
 alias ll="ls -l"
 alias la="ll -a"
+
+alias kraken="open -a 'GitKraken' --args -p '$(pwd)'"
