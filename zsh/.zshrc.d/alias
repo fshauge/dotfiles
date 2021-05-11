@@ -1,6 +1,6 @@
 #!/bin/sh
 
-alias reload="source $HOME/.profile"
+alias reload="source $HOME/.zshrc"
 
 alias ll="ls -l"
 alias la="ll -a"
