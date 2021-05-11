@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo Linking alacritty.yml
+mkdir "$HOME/.config/alacritty"
+ln -sfn "$(pwd)/alacritty.yml" "$HOME/.config/alacritty"
