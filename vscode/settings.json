@@ -1,35 +1,33 @@
 {
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.codeLens": false,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
   "editor.suggestSelection": "first",
   "eslint.packageManager": "yarn",
   "explorer.compactFolders": false,
-  "files.associations": {
-    "*.asp": "python"
-  },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": false,
+  "git.allowForcePush": true,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.ignoreLegacyWarning": true,
-  "python.linting.enabled": false,
   "terminal.integrated.cursorStyle": "line",
   "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.useAliasesForRenames": false,
   "window.zoomLevel": 1,
+  "workbench.colorTheme": "Default Dark+",
   "workbench.settings.editor": "json",
   "workbench.tree.renderIndentGuides": "none",
   "[html]": {
     "editor.tabSize": 2,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
     "editor.tabSize": 2,
@@ -46,7 +44,8 @@
   },
   "[jsonc]": {
     "editor.tabSize": 2,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.tabSize": 2,
@@ -87,8 +86,11 @@
   "[ruby]": {
     "editor.tabSize": 2
   },
+  "[elm]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "elmTooling.elm-ls-vscode"
+  },
   "[plaintext]": {
     "editor.acceptSuggestionOnEnter": "off"
-  },
-  "workbench.colorTheme": "Halflife (rainglow)"
+  }
 }
