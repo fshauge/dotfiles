@@ -3,8 +3,9 @@
   "editor.codeLens": false,
   "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontLigatures": true,
+  "editor.guides.indentation": false,
+  "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": false,
-  "editor.renderIndentGuides": false,
   "editor.rulers": [80],
   "editor.suggestSelection": "first",
   "eslint.packageManager": "yarn",
@@ -17,11 +18,17 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.ignoreLegacyWarning": true,
+  "github.copilot.enable": {
+    "*": false
+  },
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "rust-analyzer.inlayHints.enable": false,
+  "rust-analyzer.procMacro.enable": true,
   "terminal.integrated.cursorStyle": "line",
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.useAliasesForRenames": false,
+  "security.workspace.trust.enabled": false,
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Default Dark+",
   "workbench.settings.editor": "json",
   "workbench.tree.renderIndentGuides": "none",
   "[html]": {
@@ -92,5 +99,15 @@
   },
   "[plaintext]": {
     "editor.acceptSuggestionOnEnter": "off"
+  },
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.rulers": [120]
+  },
+  "[sql]": {
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.tabSize": 2
   }
 }
