@@ -1,0 +1,6 @@
+#!/bin/sh
+
+[ -s "/Users/markus/.bun/_bun" ] && source "/Users/markus/.bun/_bun"
+
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
