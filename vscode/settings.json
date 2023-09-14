@@ -1,103 +1,128 @@
 {
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.codeLens": false,
-  "editor.fontFamily": "FiraCode Nerd Font",
-  "editor.fontLigatures": true,
-  "editor.guides.indentation": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.minimap.enabled": false,
-  "editor.rulers": [80],
-  "editor.suggestSelection": "first",
-  "eslint.packageManager": "yarn",
-  "explorer.compactFolders": false,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": false,
-  "git.allowForcePush": true,
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "git.ignoreLegacyWarning": true,
-  "rust-analyzer.checkOnSave.command": "clippy",
-  "rust-analyzer.inlayHints.enable": false,
-  "rust-analyzer.procMacro.enable": true,
-  "terminal.integrated.cursorStyle": "line",
-  "typescript.preferences.importModuleSpecifier": "relative",
-  "typescript.preferences.useAliasesForRenames": false,
-  "security.workspace.trust.enabled": false,
-  "window.zoomLevel": 1,
-  "workbench.settings.editor": "json",
-  "workbench.tree.renderIndentGuides": "none",
-  "[html]": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[css]": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true
-  },
-  "[scss]": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true
-  },
-  "[json]": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
-  "[typescript]": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
-  "[typescriptreact]": {
-    "editor.tabSize": 2,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
+    "editor.tabSize": 2
+  },
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.rulers": [120]
   },
   "[graphql]": {
-    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
   },
   "[plaintext]": {
     "editor.acceptSuggestionOnEnter": "off"
+  },
+  "[python]": {
+    "editor.formatOnSave": true
   },
   "[rust]": {
     "editor.formatOnSave": true,
     "editor.rulers": [120]
   },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
   "[sql]": {
     "editor.formatOnSave": true
   },
-  "[markdown]": {
+  "[tailwindcss]": {
+    "editor.formatOnSave": true,
     "editor.tabSize": 2
-  }
+  },
+  "[terraform]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeLens": false,
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.guides.indentation": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.rulers": [80],
+  "editor.scrollBeyondLastLine": false,
+  "editor.suggestSelection": "first",
+  "explorer.compactFolders": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.allowForcePush": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreLegacyWarning": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "scminput": false,
+    "yaml": true
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "lldb.suppressUpdateNotifications": true,
+  "rust-analyzer.cargo.extraArgs": ["--all-features"],
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.imports.granularity.enforce": true,
+  "rust-analyzer.imports.granularity.group": "module",
+  "rust-analyzer.procMacro.enable": true,
+  "security.workspace.trust.enabled": false,
+  "terminal.integrated.cursorStyle": "line",
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "typescript.preferences.useAliasesForRenames": false,
+  "window.zoomLevel": 1,
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none",
+  "workbench.tree.renderIndentGuides": "none"
 }
